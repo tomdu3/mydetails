@@ -1,0 +1,13 @@
+h1 {
+  max-width: min-content;
+}
+
+h2 {
+  flex: 0 0 100%;
+}
+
+main {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+}
