@@ -9,7 +9,7 @@ h2 {
 main {
   display: flex;
   flex-flow: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
   padding: 0 20%;
 }
@@ -29,4 +29,15 @@ main > div {
   display: flex;
   justify-content: space-between;
   gap: 10rem;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  align-items: center;
+}
+caption {
+  padding-bottom: 1rem;
 }
